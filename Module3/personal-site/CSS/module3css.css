@@ -1,0 +1,93 @@
+/* 
+Colors used
+EF798A (Bright Pink)
+F7A9A8 (Light Pink)
+7D82B8 (blue)
+613F75 (Purple)
+E5C3D1 (Grey)
+*/
+
+/* Global Styles (both pages) */
+Body {
+    background-color: #F7A9A8;
+    font-family:'Trebuchet MS'
+}
+
+h1 {
+    font-family: 'Lucida Sans Unicode'
+}
+
+/* global link */
+a {
+    color: #613F75;
+}
+a:hover {
+    color: #EF798A;
+    text-decoration: none;
+}
+footer a {
+    color: #7D82B8;
+}
+footer a:hover {
+    color: #613F75;
+    text-decoration: none;
+}
+.BTN {
+    background: #7D82B8;
+    color: #E5C3D1;
+    padding: 8px;
+    border-radius: 7px;
+    margin: 15px;
+}
+.BTN a:hover {
+    color: #613F75;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Home Page */
+.home {
+    background: url(../images/bg-sunset-ocean.jpg) no-repeat;
+    background-size: cover;
+}
+.home .content-wrapper {
+    background: rgb(229 195 209 / 0.85);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Resume Page */
+
+header .resume ::before {
+    background-image: url(../images/bg-gradient.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* Footer */
+footer {
+    background: #613F75;
+    color: #E5C3D1;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+img {
+    width: 300px;
+}
+
+.linkedin {
+    width: 75px;
+}
+
+img .linkedin {
+    max-width: 75px;
+}
